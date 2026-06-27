@@ -1,0 +1,51 @@
+# ───────────────────────────────────────────
+# MLS — Mentolka Linux System
+# .gitignore
+# ───────────────────────────────────────────
+
+# ── artools build output ──────────────────
+work/
+/var/cache/artools/
+*.iso
+*.iso.sig
+*.iso.sha256
+
+# ── squashfs / rootfs images ──────────────
+*.sfs
+*.img
+airootfs.img
+
+# ── pacman cache & DBs ────────────────────
+*.pkg.tar.zst
+*.pkg.tar.xz
+*.pkg.tar.gz
+pacman-*.log
+db.lck
+
+# ── temporary build dirs ──────────────────
+tmp/
+temp/
+.tmp/
+rootfs/
+efiboot/
+iso/
+mnt/
+
+# ── GPG keys (never commit private keys) ──
+*.gpg
+*.asc
+*.key
+secring.*
+
+# ── editor & OS noise ─────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.orig
+
+# ── logs ──────────────────────────────────
+*.log
