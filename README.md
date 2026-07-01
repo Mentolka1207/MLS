@@ -17,6 +17,18 @@
 
 ---
 
+## 📥 Download
+
+**Latest release: [v1.0.0](https://github.com/Mentolka1207/MLS/releases/tag/1.0.0)**
+
+| File | Size |
+|------|------|
+| [artix-mls-runit-20260627-x86_64.iso](https://github.com/Mentolka1207/MLS/releases/download/1.0.0/artix-mls-runit-20260627-x86_64.iso) | 1.85 GB |
+
+All releases: [github.com/Mentolka1207/MLS/releases](https://github.com/Mentolka1207/MLS/releases)
+
+---
+
 ## 📸 Screenshots
 
 > _Screenshots will be added after first stable release._
